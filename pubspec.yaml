@@ -1,0 +1,26 @@
+name: radio_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  audioplayers: ^4.1.0
+  dart_ping_ios: ^3.0.0
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  radio_browser_flutter: ^0.0.3
+  radio_player: ^1.4.2
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
